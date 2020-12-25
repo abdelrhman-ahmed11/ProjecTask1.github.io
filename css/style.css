@@ -1,0 +1,52 @@
+.navbar-brand {
+    letter-spacing: 4px;
+    font-size: 1.7rem;
+}
+
+header {
+    height: 100vh;
+    background-color: #37517e;
+}
+
+header h2 {
+    font-weight: bolder;
+    line-height: 1.4;
+}
+
+header img {
+    position: relative;
+    top: -10px;
+    animation-name: TobBottom;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.clients {
+    background-color: #f3f5f9;
+}
+
+.clients img {
+    filter: grayscale(1);
+    width: calc(100% / 1.5);
+    transition: all 0.6s ease-in-out;
+    overflow: hidden;
+}
+
+.clients img:hover {
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+@keyframes TobBottom {
+    0% {
+        top: -10px;
+    }
+
+    50% {
+        top: 10px;
+    }
+
+    to {
+        top: -10px;
+    }
+}
