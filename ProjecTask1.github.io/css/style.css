@@ -148,6 +148,100 @@ element.style {
 /*          
 End About us */
 
+
+/* start section skilles*/
+.skilles{
+    overflow: hidden;
+}
+.percent{
+    height: 10px;
+    background-color: #4668a2;;
+}
+.p1{
+    color: #4668a2;
+}
+.content h3{
+    font-weight: 700;
+    font-size: 32px;
+    color: #37517e;
+    font-family: "Poppins", sans-serif;
+}
+/* end section skilles*/
+/* start section services*/
+.SERVICES{
+    overflow: hidden;
+
+}
+.serv{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #37517e;
+    position: relative;
+}
+.serv::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.serv::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.title{
+    text-align:center;
+}
+.icon-box {
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    background: #fff;
+  }
+ .icon-box h4 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+ h4 a {
+    color: #37517e;
+    transition: ease-in-out 0.3s;
+  }
+  .icon-box  i {
+    color: #47b2e4;
+    font-size: 36px;
+    transition: 0.3s;
+  }
+  
+  .services .icon-box p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0;
+  }
+ .icon-box:hover {
+    transform: translateY(-10px);
+  }
+  
+ .icon-box:hover h4 a {
+    color: #47b2e4;
+    text-decoration: none;
+  }
+  
+
+/* end section services*/
+
 /* START Action Section */
 
 /* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
