@@ -69,22 +69,22 @@ Start About us */
 .about-us h2::before {
     content: '';
     position: absolute;
-    display: block;
     width: 120px;
     height: 1px;
     background: #ddd;
-    bottom: 1px;
-    left: calc(50% - 60px);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .about-us h2::after {
     content: '';
     position: absolute;
-    display: block;
     width: 40px;
     height: 3px;
     background: #47b2e4;
-    bottom: 0;
-    left: calc(50% - 20px);
+    bottom: -11px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .about-us  ul {
     list-style: none;
@@ -375,3 +375,67 @@ End About us */
     vertical-align: middle;
   }
 /* END Portfolio Section  */
+
+
+/* START Team Section */
+
+.team{
+    background-color: #F3F5FA;
+}
+.team h2{
+    font-size: 40px;
+    color: #37517e;
+    position: relative;
+}
+.team h2::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.team h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team-member{
+    background-color: #fff;
+    border-radius: 2%;
+    box-shadow: 0 0 4px 4px #eee;
+    padding: 30px;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+.team-member:hover{
+    transform: translateY(-10px);
+}
+.team-member img{
+    border-radius: 50%;
+    width: 140px;
+}
+.member-info h4{
+    font-weight: bold;
+    color: #37517e;
+    position: relative;
+}
+.member-info h4::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 50px;
+    height: 0.8px;
+}
+
+/* END Team Section */
